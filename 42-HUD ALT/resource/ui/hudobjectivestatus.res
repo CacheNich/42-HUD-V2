@@ -1,0 +1,72 @@
+"Resource/UI/HudObjectiveStatus.res"
+{	
+	"ObjectiveStatusTimePanel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"ObjectiveStatusTimePanel"
+		"xpos"				"c-55"
+		"ypos"				"0"	[$WIN32]
+		"ypos_minmode"      "-16"
+		"zpos"				"1"
+		"wide"				"110"
+		"tall"				"300"
+		"visible"			"0"
+		"enabled"			"1"
+		"delta_item_x"			"22"	[$WIN32]
+		"delta_item_x"			"115"	[$X360]
+		"delta_item_start_y"	"50"
+		"delta_item_end_y"		"70"
+		"PositiveColor"			"0 255 0 255"
+		"NegativeColor"			"255 0 0 255"
+		"delta_lifetime"		"1.5"
+		"delta_item_font"		"Hiruko24"
+		
+		"TimePanelValue"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"TimePanelValue"
+			"font"			"Hiruko24"
+			"fgcolor"		"TanLight"
+			"xpos"			"0"
+			"ypos"			"12"
+			"ypos_minmode"  "11"
+			"zpos"			"3"
+			"wide"			"100"
+			"wide_lodef"	"50"
+			"tall"			"80"
+			"visible"		"1"
+			"enabled"		"1"
+			"textAlignment"		"center"
+			"labelText"		"0:00"
+		}
+    "TeamIndicator"
+    {
+       "ControlName"   "CTFImagePanel"
+       "fieldName"     "TeamIndicator"
+       "xpos"          "9999"
+	   "xpos_minmode"  "30"
+       "ypos"          "9999"
+	   "ypos_minmode"  "38"
+       "zpos"          "2"
+       "wide"          "0"
+	   "wide_minmode"  "40"
+       "tall"          "0"
+	   "tall_minmode"  "3"
+       "autoResize"    "0"
+       "pinCorner"     "0"
+       "visible"       "0"
+	   "visible_minmode" "1"
+       "enabled"       "1"
+       "image"         "../hud/tournament_panel_brown"
+       "scaleImage"    "1"
+       "teambg_1"      "../hud/tournament_panel_brown"
+       "teambg_2"      "../HUD/score_panel_red_bg"
+       "teambg_3"      "../HUD/score_panel_blue_bg"
+       	
+       "src_corner_height"    "40"
+       "src_corner_width"     "40"
+	   "draw_corner_width"    "0"
+	   "draw_corner_height"   "0"
+    }		
+	}
+}

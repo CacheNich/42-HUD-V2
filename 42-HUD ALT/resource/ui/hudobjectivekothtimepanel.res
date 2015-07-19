@@ -1,0 +1,177 @@
+"Resource/UI/HudObjectiveKothTimePanel.res"
+{	
+	"BlueTimer"
+	{
+		"ControlName"		"CTFHudTimeStatus"
+		"fieldName"			"BlueTimer"
+		"xpos"				"4"
+		"ypos"				"-35"
+		"zpos"				"2"
+		"wide"				"100"
+		"tall"				"150"
+		"visible"			"1"
+		"enabled"			"1"
+		"delta_item_x"			"22"
+		"delta_item_start_y"	"50"
+		"delta_item_end_y"		"70"
+		"PositiveColor"			"0 255 0 255"
+		"NegativeColor"			"255 0 0 255"
+		"delta_lifetime"		"1.5"
+		"delta_item_font"		"Hiruko24"
+		
+		"TimePanelValue"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"TimePanelValue"
+			"font"			"Hiruko20"
+			"fgcolor"		"TanLight"
+			"xpos"			"26"
+			"ypos"			"36"
+			"zpos"			"3"
+			"wide"			"45"
+			"tall"			"31"
+			"visible"		"1"
+			"enabled"		"1"
+			"textAlignment"		"center"
+			"labelText"		"0:00"
+		}	
+	}
+
+	"RedTimer"
+	{
+		"ControlName"		"CTFHudTimeStatus"
+		"fieldName"			"RedTimer"
+		"xpos"				"94"
+		"ypos"				"-35"
+		"zpos"				"2"
+		"wide"				"100"
+		"tall"				"150"
+		"visible"			"1"
+		"enabled"			"1"
+		"delta_item_x"			"22"
+		"delta_item_start_y"	"50"
+		"delta_item_end_y"		"70"
+		"PositiveColor"			"0 255 0 255"
+		"NegativeColor"			"255 0 0 255"
+		"delta_lifetime"		"1.5"
+		"delta_item_font"		"Hiruko24"
+		
+		"TimePanelValue"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"TimePanelValue"
+			"font"			"Hiruko20"
+			"fgcolor"		"TanLight"
+			"xpos"			"26"
+			"ypos"			"36"
+			"zpos"			"3"
+			"wide"			"45"
+			"tall"			"31"
+			"visible"		"1"
+			"enabled"		"1"
+			"textAlignment"		"center"
+			"labelText"		"0:00"
+		}	
+	}
+	
+	"ActiveTimerBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"ActiveTimerBG"
+		"xpos"				"0"
+		"xpos_minmode"      "9999"
+		"ypos"				"2"
+		"ypos_minmode"      "9999"
+		"zpos"				"1"
+		"wide"				"73"
+		"wide_minmode"      "0"
+		"tall"				"30"
+		"tall_minmode"      "0"
+		"visible"			"0"
+		"enabled"			"0"
+		"image"				"../hud/objectives_timepanel_active_bg"	
+		"scaleImage"		"1"	
+	}
+		    "TeamIndicator"
+    {
+       "ControlName"   "CTFImagePanel"
+       "fieldName"     "TeamIndicator"
+       "xpos"          "1"
+       "ypos"          "10"
+       "zpos"          "2"
+       "wide"          "90"
+       "tall"          "32"
+       "autoResize"    "0"
+       "pinCorner"     "0"
+       "visible"       "0"
+       "enabled"       "0"
+       "image"         "../hud/color_panel_red"
+       "scaleImage"    "1"
+       "teambg_1"      "../hud/color_panel_red"
+       "teambg_2"      "../HUD/color_panel_red"
+       "teambg_3"      "../HUD/color_panel_red"
+       	
+ 			"src_corner_height"		"50"			// pixels inside the image
+			"src_corner_width"		"50"
+					
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+				    "TeamIndicator2"
+    {
+       "ControlName"   "CTFImagePanel"
+       "fieldName"     "TeamIndicator2"
+       "xpos"          "90"
+       "ypos"          "10"
+       "zpos"          "2"
+       "wide"          "90"
+       "tall"          "32"
+       "autoResize"    "0"
+       "pinCorner"     "0"
+       "visible"       "0"
+       "enabled"       "0"
+       "image"         "../hud/color_panel_blu"
+       "scaleImage"    "1"
+       "teambg_1"      "../hud/color_panel_blu"
+       "teambg_2"      "../HUD/color_panel_blu"
+       "teambg_3"      "../HUD/color_panel_blu"
+       	
+ 			"src_corner_height"		"50"			// pixels inside the image
+			"src_corner_width"		"50"
+					
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+	}
+		 "BLULine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BLULine"
+		"xpos"			"32"
+		"ypos"			"4"
+		"zpos"			"-1"
+		"wide"			"40"
+		"tall"			"3"
+		"visible"		"0"
+		"visible_minmode" "1"
+		"enabled"		"0"
+		"enabled_minmode"  "1"
+ 		"fillcolor"     "0 102 255 225"
+		
+	}
+			 "REDLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"REDLine"
+		"xpos"			"122"
+		"ypos"			"4"
+		"zpos"			"-1"
+		"wide"			"40"
+		"tall"			"3"
+		"visible"		"0"
+		"visible_minmode" "1"
+		"enabled"		"0"
+		"enabled_minmode"  "1"
+ 		"fillcolor"     "204 0 0 225"
+		
+	}
+}
