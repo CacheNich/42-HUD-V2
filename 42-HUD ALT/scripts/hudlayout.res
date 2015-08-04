@@ -1111,7 +1111,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-175"
-		"ypos"					"9"
+		"ypos"					"-4"
 		"wide"					"125"
 		"tall"					"55"
 	}

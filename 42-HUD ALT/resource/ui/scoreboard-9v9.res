@@ -350,7 +350,7 @@
 		"xpos"			"5"
 		"ypos"			"60"
 		"zpos"			"20"
-		"wide"			"290"
+		"wide"			"292"
 		"tall"			"210"	[$WIN32]
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -374,7 +374,7 @@
 		"xpos_hidef"	"314"
 		"ypos"			"60"
 		"zpos"			"20"
-		"wide"			"290"
+		"wide"			"292"
 		"tall"			"210"	[$WIN32]
 		"pinCorner"		"0"
 		"visible"		"1"
