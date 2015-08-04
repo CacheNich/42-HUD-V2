@@ -8,7 +8,7 @@
 		"xpos"			"c-310"		[$WIN32]
 		"xpos_minmode"  "c-370"
 		"ypos"			"c52"	[$WIN32]
-		"ypos_minmode"  "c80"
+		"ypos_minmode"  "c75"
 		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"120"
