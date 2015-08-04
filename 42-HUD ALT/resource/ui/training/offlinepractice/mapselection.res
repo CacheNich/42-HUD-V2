@@ -108,7 +108,7 @@
 		"ypos"			"145"
 		"zpos"			"2"
 		"wide"			"330"
-		"tall"			"40"
+		"tall"			"50"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -121,7 +121,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"Hiruko24"
+		"font"			"Hiruko18"
 		"labelText"		"%curpage%"
 		"textAlignment"	"north"
 		"center"		"1"

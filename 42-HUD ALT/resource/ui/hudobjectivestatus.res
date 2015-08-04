@@ -12,9 +12,8 @@
 		"tall"				"300"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"22"	[$WIN32]
-		"delta_item_x"			"115"	[$X360]
-		"delta_item_start_y"	"50"
+		"delta_item_x"			"70"	[$WIN32]
+		"delta_item_start_y"	"40"
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"

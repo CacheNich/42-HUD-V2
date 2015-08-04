@@ -123,18 +123,17 @@
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton2"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"3"
-		"wide"			"0"
-		"tall"			"0"
+		"xpos"			"c-45"
+		"ypos"			"204"
+		"zpos"			"-1"
+		"wide"			"90"
+		"tall"			"10"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"1"
-		"labelText"		"&1"	[$WIN32]
-		"labelText"		""		[$X360]
+		"labelText"		""	[$WIN32]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -224,28 +223,22 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
-		"xpos"			"9999" [$WIN32] 
-		"xpos"			"c-276" [$X360]
-		"xpos_lodef"			"c-255"
-		"xpos_hidef"			"c-260"
-		"ypos"			"9999"
-		"ypos_lodef"			"72"
-		"ypos_hidef"			"65"
-		"zpos"			"1"
-		"wide"			"0" [$WIN32] 
-		"wide"			"94" [$X360]
-		"tall"			"0"
+		"xpos"			"c-45"
+		"ypos"			"204"
+		"zpos"			"-1"
+		"wide"			"90"
+		"tall"			"10"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"labelText"		"#TF_Random"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"Hiruko16"
-		"fgcolor"		"black"
+		"font"			"Hiruko12"
+		"fgcolor"		"White"
 	}
 	
 	"TeamMenuSpectate"
@@ -256,7 +249,6 @@
 		"ypos"			"261"
 		"zpos"			"1"
 		"wide"			"44"
-		"wide_lodef"	"70"
 		"tall"			"17"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -268,7 +260,6 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"Hiruko12"
-		"font_lodef"	"MenuSmallFont"
 		"fgcolor"		"white"
 	}
 
@@ -325,7 +316,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCount"
-		"xpos"			"347"
+		"xpos"			"345"
 		"ypos"			"233"
 		"zpos"			"1"
 		"wide"			"90"
@@ -752,12 +743,25 @@
 		"xpos"			"383"
 		"ypos"			"217"
 		"zpos"			"-15"
-		"wide"			"42"
+		"wide"			"43"
 		"tall"			"42"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"     "0 51 255 225"
-	}	
+	}
+		 "RedBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RedBG"
+		"xpos"			"429"
+		"ypos"			"217"
+		"zpos"			"-15"
+		"wide"			"44"
+		"tall"			"42"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"     "204 0 0 225"
+	}		
 		 "SpecBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -771,6 +775,21 @@
 		"enabled"		"1"
 		"fillcolor"     "245 245 220 90"	
 	}
+	
+			 "RandomBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RandomBG"
+		"xpos"			"383"
+		"ypos"			"204"
+		"zpos"			"-1"
+		"wide"			"90"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"     "128 128 128 135"	
+	}
+	
 	"RedGlow" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -808,7 +827,7 @@
 		"zpos"			"-10"
 		"wide"			"50"
 		"tall"			"50"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../vgui/replay/fatlineborder_red"
 		"scaleImage"	"1"	
@@ -823,7 +842,7 @@
 		"zpos"			"-10"
 		"wide"			"50"
 		"tall"			"50"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../vgui/replay/fatlineborder"
 		"scaleImage"	"1"	

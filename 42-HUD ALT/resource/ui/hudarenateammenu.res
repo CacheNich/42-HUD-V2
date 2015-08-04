@@ -393,12 +393,27 @@
 		"zpos"			"-20"
 		"wide"			"65"
 		"tall"			"65"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../vgui/replay/fatlineborder"
 		"scaleImage"	"1"	
 		"alpha"         "200"
-	}			
+	}
+	
+				 "FightBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"FightBG"
+		"xpos"			"399"
+		"ypos"			"218"
+		"zpos"			"-1"
+		"wide"			"60"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"     "76 76 76 90"	
+	}
+	
 		 "SpecBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -406,7 +421,7 @@
 		"xpos"			"399"
 		"ypos"			"282"
 		"zpos"			"-20"
-		"wide"			"58"
+		"wide"			"60"
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"

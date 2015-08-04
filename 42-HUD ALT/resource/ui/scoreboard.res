@@ -522,7 +522,7 @@
 		"labelText"		"%mapname%"
 		"textAlignment"	"east"
 		"xpos"			"135"
-		"ypos"			"0"
+		"ypos"			"-2"
 		"zpos"			"3"
 		"wide"			"165"
 		"tall"			"25"
@@ -593,7 +593,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerDuelStatsPanel"
-		"xpos"			"0"
+		"xpos"			"-125"
 		"ypos"			"395"
 		"zpos"			"3"
 		"wide"			"600"
@@ -892,7 +892,7 @@
 		"Kills"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Kills"
+			"fieldName"		"Kills_"
 			"font"			"Hiruko14"
 			"labelText"		"%kills%"
 			"textAlignment"		"west"
@@ -909,7 +909,7 @@
 		"Deaths"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Deaths"
+			"fieldName"		"Deaths_"
 			"font"			"Hiruko14"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
@@ -926,7 +926,7 @@
 		"GameType"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"gametype"
+			"fieldName"		"gametype_"
 			"font"			"Hiruko14"
 			"labelText"		"%gametype%"
 			"textAlignment"		"east"
@@ -945,7 +945,7 @@
 		"Assists"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Assists"
+			"fieldName"		"Assists_"
 			"font"			"Hiruko14"
 			"labelText"		"%assists%"
 			"textAlignment"		"west"
@@ -962,7 +962,7 @@
 		"Destruction"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Destruction"
+			"fieldName"		"Destruction_"
 			"font"			"Hiruko14"
 			"labelText"		"%destruction%"
 			"textAlignment"		"west"
@@ -979,7 +979,7 @@
 		"CapturesLabel"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"CapturesLabel"
+			"fieldName"		"CapturesLabel_"
 			"font"			"Hiruko14"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"east"
@@ -996,7 +996,7 @@
 		"DefensesLabel"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"DefensesLabel"
+			"fieldName"		"DefensesLabel_"
 			"font"			"Hiruko14"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"east"
@@ -1013,7 +1013,7 @@
 		"DominationLabel"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"DominationLabel"
+			"fieldName"		"DominationLabel_"
 			"font"			"Hiruko14"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"east"
@@ -1030,7 +1030,7 @@
 		"RevengeLabel"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"RevengeLabel"
+			"fieldName"		"RevengeLabel_"
 			"font"			"Hiruko14"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"east"
@@ -1047,7 +1047,7 @@
 		"Captures"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Captures"
+			"fieldName"		"Captures_"
 			"font"			"Hiruko14"
 			"labelText"		"%captures%"
 			"textAlignment"		"west"
@@ -1064,7 +1064,7 @@
 		"Defenses"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Defenses"
+			"fieldName"		"Defenses_"
 			"font"			"Hiruko14"
 			"labelText"		"%defenses%"
 			"textAlignment"		"west"
@@ -1081,7 +1081,7 @@
 		"Domination"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Domination"
+			"fieldName"		"Domination_"
 			"font"			"Hiruko14"
 			"labelText"		"%dominations%"
 			"textAlignment"		"west"
@@ -1098,7 +1098,7 @@
 		"Revenge"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Revenge"
+			"fieldName"		"Revenge_"
 			"font"			"Hiruko14"
 			"labelText"		"%Revenge%"
 			"textAlignment"		"west"
@@ -1115,7 +1115,7 @@
 		"HealingLabel"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"HealingLabel"
+			"fieldName"		"HealingLabel_"
 			"font"			"Hiruko14"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
@@ -1132,7 +1132,7 @@
 		"InvulnLabel"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"InvulnLabel"
+			"fieldName"		"InvulnLabel_"
 			"font"			"Hiruko14"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"east"
@@ -1149,7 +1149,7 @@
 		"TeleportsLabel"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"TeleportsLabel"
+			"fieldName"		"TeleportsLabel_"
 			"font"			"Hiruko14"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"east"
@@ -1166,7 +1166,7 @@
 		"HeadshotsLabel"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"HeadshotsLabel"
+			"fieldName"		"HeadshotsLabel_"
 			"font"			"Hiruko14"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
@@ -1183,7 +1183,7 @@
 		"Healing"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Healing"
+			"fieldName"		"Healing_"
 			"font"			"Hiruko14"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
@@ -1200,7 +1200,7 @@
 		"Invuln"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Invuln"
+			"fieldName"		"Invuln_"
 			"font"			"Hiruko14"
 			"labelText"		"%invulns%"
 			"textAlignment"		"west"
@@ -1217,7 +1217,7 @@
 		"Teleports"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Teleports"
+			"fieldName"		"Teleports_"
 			"font"			"Hiruko14"
 			"labelText"		"%teleports%"
 			"textAlignment"		"west"
@@ -1234,7 +1234,7 @@
 		"Headshots"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Headshots"
+			"fieldName"		"Headshots_"
 			"font"			"Hiruko14"
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
@@ -1268,7 +1268,7 @@
 		"Backstabs"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Backstabs"
+			"fieldName"		"Backstabs_"
 			"font"			"Hiruko14"
 			"labelText"		"%backstabs%"
 			"textAlignment"		"west"		[$WIN32]
@@ -1303,7 +1303,7 @@
 		"Bonus"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Bonus"
+			"fieldName"		"Bonus_"
 			"font"			"Hiruko14"
 			"labelText"		"%bonus%"
 			"textAlignment"		"west"		[$WIN32]
@@ -1337,7 +1337,7 @@
 		"Support"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Support"
+			"fieldName"		"Support_"
 			"font"			"Hiruko14"
 			"labelText"		"%support%"
 			"textAlignment"	"west"		[$WIN32]
@@ -1371,7 +1371,7 @@
 		"Damage"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Damage"
+			"fieldName"		"Damage_"
 			"font"			"Hiruko14"
 			"labelText"		"%damage%"
 			"textAlignment"	"west"		[$WIN32]

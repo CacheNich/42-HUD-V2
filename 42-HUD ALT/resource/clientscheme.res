@@ -2630,7 +2630,7 @@ Scheme
 				"antialias" "1"
 		   }	
 		}
-				Hiruko6
+		Hiruko6
 		{
 		   "1"
 		   {
@@ -4697,3 +4697,5 @@ Scheme
 		    "font" "resource/fonts/TypoSlab_demo"
 			"name" "KenyanCoffeeRg-Regular"
 		}	
+}
+}

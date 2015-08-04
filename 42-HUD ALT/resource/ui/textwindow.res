@@ -20,7 +20,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TFMessageTitle"
-		"xpos"			"c-184"
+		"xpos"			"c-220"
 		"ypos"			"85"
 		"zpos"			"1"
 		"wide"			"420"
@@ -129,10 +129,10 @@
 		"default"		"1"
 		"font"			"Hiruko16"
 	}
-	"ok2"
+	"ok"
 {
     "ControlName"	"CExButton"
-    "fieldName"		"ok2"
+    "fieldName"		"ok"
     "xpos"		"760"
     "ypos"		"405"
 	"zpos"      "100"
@@ -147,7 +147,7 @@
 	"labelText"      "Continue"
 	"command"        "okay"
 }
-	 "ok2BG"
+	 "okBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ok2BG"
@@ -160,7 +160,7 @@
 		"enabled"		"1"
 		"fillcolor"     "0 0 0 200"
 	}
-		"VerticalLine1VerticalOk2"
+		"VerticalLine1VerticalOk"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
@@ -181,7 +181,7 @@
 		"fillcolor"		"90 90 90 105"
 		"PaintBackgroundType"	"0"
 	}
-		"VerticalLine2VerticalOk2"
+		"VerticalLine2VerticalOk"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
@@ -202,7 +202,7 @@
 		"fillcolor"		"90 90 90 105"
 		"PaintBackgroundType"	"0"
 	}
-			"VerticalLine1HorizontalOk2"
+			"VerticalLine1HorizontalOk"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
@@ -223,7 +223,7 @@
 		"fillcolor"		"90 90 90 105"
 		"PaintBackgroundType"	"0"
 	}
-				"VerticalLine2HorizontalOk2"
+				"VerticalLine2HorizontalOk"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"

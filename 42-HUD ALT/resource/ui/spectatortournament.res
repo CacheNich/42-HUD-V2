@@ -10,34 +10,114 @@
 		"pinCorner"		"0"
 		"enabled"		"1"
 				
-		"team1_player_base_offset_x"		"-300"
-		"team1_player_base_y"				"0"
+		"team1_player_base_offset_x"		"-425"
+		"team1_player_base_y"				"440"
 		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"38"
-		"team2_player_base_offset_x"		"300"
-		"team2_player_base_y"				"0"
+		"team1_player_delta_y"				"-18"
+		"team2_player_base_offset_x"		"0"
+		"team2_player_base_y"				"240"
 		"team2_player_delta_x"				"0"
-		"team2_player_delta_y"				"38"
+		"team2_player_delta_y"				"-18"
 		
 		"playerpanels_kv"
 		{
 			"visible"		"0"
 			"wide"			"140"
-			"tall"			"38"
+			"tall"			"18"
 			"zpos"			"1"
 			
-			"color_ready"	"0 255 0 220"
+			"color_ready"	    "0 255 0 220"
 			"color_notready"	"0 0 0 220"
+			
+			"PanelBackground"
+			{
+			"ControlName" 	"ImagePanel"
+			"fieldName" 	"PanelBackground"
+			"xpos" 			"0"
+			"ypos"			"0"
+			"zpos" 			"-1"
+			"wide" 			"160"
+			"tall" 			"18"
+			"autoResize" 	"0"
+			"pinCorner"		"0"
+			"visible" 		"1"
+			"enabled" 		"1"
+			"fillcolor" 	"15 15 15 50"
+			}
+			
+			"PanelLeft"
+			{
+			"ControlName" 	"ImagePanel"
+			"fieldName" 	"PanelLeft"
+			"xpos" 			"0"
+			"ypos"			"0"
+			"zpos" 			"-1"
+			"wide" 			"49"
+			"tall" 			"18"
+			"autoResize" 	"0"
+			"pinCorner"		"0"
+			"visible" 		"1"
+			"enabled" 		"1"
+			"fillcolor" 	"15 15 15 255"
+			}
+			
+			"PanelTop"
+			{
+			"ControlName" 	"ImagePanel"
+			"fieldName" 	"PanelTop"
+			"xpos" 			"0"
+			"ypos"			"0"
+			"zpos" 			"-1"
+			"wide" 			"160"
+			"tall" 			"3"
+			"autoResize" 	"0"
+			"pinCorner"		"0"
+			"visible" 		"1"
+			"enabled" 		"1"
+			"fillcolor" 	"15 15 15 255"
+			}
+			
+			"PanelBottom"
+			{
+			"ControlName" 	"ImagePanel"
+			"fieldName" 	"PanelBottom"
+			"xpos" 			"0"
+			"ypos"			"15"
+			"zpos" 			"-1"
+			"wide" 			"160"
+			"tall" 			"4"
+			"autoResize" 	"0"
+			"pinCorner"		"0"
+			"visible" 		"1"
+			"enabled" 		"1"
+			"fillcolor" 	"15 15 15 255"
+			}
+			
+			"PanelRight"
+			{
+			"ControlName" 	"ImagePanel"
+			"fieldName" 	"PanelRight"
+			"xpos" 			"137"
+			"ypos"			"0"
+			"zpos" 			"10"
+			"wide" 			"4"
+			"tall" 			"16"
+			"autoResize" 	"0"
+			"pinCorner"		"0"
+			"visible" 		"1"
+			"enabled" 		"1"
+			"fillcolor" 	"15 15 15 255"
+			}
 										  			
 			"playername"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"Hiruko12"
-				"xpos"			"40"
-				"ypos"			"24"
+				"xpos"			"50"
+				"ypos"			"3"
 				"zpos"			"5"
-				"wide"			"200"
+				"wide"			"63"
 				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -60,11 +140,11 @@
 			{
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
-				"xpos"			"112"
+				"xpos"			"5"
 				"ypos"			"2"
 				"zpos"			"2"
-				"wide"			"24"
-				"tall"			"24"
+				"wide"			"15"
+				"tall"			"15"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
@@ -87,8 +167,8 @@
 				"xpos"			"5"
 				"ypos"			"4"
 				"zpos"			"2"
-				"wide"			"20"
-				"tall"			"20"
+				"wide"			"15"
+				"tall"			"15"
 				"visible"		"0"
 				"enabled"		"1"
 				"bgcolor_override"		"Black"
@@ -104,8 +184,8 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
-				"xpos"				"7"
-				"ypos"				"1"
+				"xpos"				"-7"
+				"ypos"				"-9"
 				"zpos"				"3"
 				"wide"				"102"
 				"tall"				"50"
@@ -136,8 +216,8 @@
 				"src_corner_height"	"22"				// pixels inside the image
 				"src_corner_width"	"22"
 			
-				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"3"
+				"draw_corner_width"	 "3"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" "3"
 				
 				if_mvm
 				{
@@ -171,12 +251,12 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"Hiruko24"
-				"xpos"			"112"
-				"ypos"			"65"
+				"font"			"Hiruko16"
+				"xpos"			"120"
+				"ypos"			"1"
 				"zpos"			"5"
 				"wide"			"100"
-				"tall"			"10"
+				"tall"			"15"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -195,8 +275,8 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
 				"font"			"Hiruko16"
-				"xpos"			"45"
-				"ypos"			"11"
+				"xpos"			"75"
+				"ypos"			"1"
 				"zpos"			"6"
 				"wide"			"100"
 				"tall"			"50"
@@ -206,6 +286,23 @@
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"north"
 				"fgcolor"		"51 255 153 255"
+			}
+						"chargeamountBG"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"chargeamountBG"
+				"font"			"Hiruko16"
+				"xpos"			"76"
+				"ypos"			"2"
+				"zpos"			"6"
+				"wide"			"100"
+				"tall"			"50"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%chargeamount%"
+				"textAlignment"	"north"
+				"fgcolor"		"0 0 0 90"
 			}
 			
 			"specindex"
@@ -407,7 +504,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"Hiruko10"
+			"font"			"DefaultSmall"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"
@@ -427,7 +524,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"attriblabel"
-			"font"			"Hiruko12"
+			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
@@ -442,5 +539,33 @@
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"1"
 		}
-	}	
-}
+	}
+	 "SpectatorBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"SpectatorBG"
+		"xpos"			"711"
+		"ypos"			"350"
+		"zpos"			"-1"
+		"wide"			"142"
+		"tall"			"109"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"     "0 0 0 255"
+		
+	}
+	 "SpectatorBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"SpectatorBG2"
+		"xpos"			"1"
+		"ypos"			"350"
+		"zpos"			"-1"
+		"wide"			"142"
+		"tall"			"109"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"     "0 0 0 255"
+		
+	}
+}	

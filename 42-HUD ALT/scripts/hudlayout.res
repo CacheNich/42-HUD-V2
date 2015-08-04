@@ -5,7 +5,7 @@
 		"fieldName" "HudPlayerStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"0"
+		"xpos"	"50"
 		"ypos"	"-4"
 		"wide"	"1000"
 		"tall"	"1000"
@@ -220,7 +220,7 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"640"	[$WIN32]
+		"xpos"		"675"	[$WIN32]
 		"ypos"		"r68"	[$WIN32]
 		"wide"		"500"
 		"tall"		"200"
@@ -462,7 +462,7 @@
 		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
 		"LineSpacing"	  "4"
-		"CornerRadius"	  "3"
+		"CornerRadius"	  "2"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
 		"TextFont"		"Hiruko14"
@@ -1063,7 +1063,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-15"
-		"ypos"					"433"
+		"ypos"					"435"
 		"wide"					"30"
 		"tall"					"100"
 		"zpos"					"99"
@@ -1178,7 +1178,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"-8"
-		"ypos"					"0"
+		"ypos"					"-5"
 		"wide"					"f0"
 		"tall"					"50"
 	}	
@@ -1446,14 +1446,14 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"Dot"
 		"font"			"Crosshairs20"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-27"
 		"ypos"			"c-27"
 		"wide"			"50"
-		"tall"			"55"
+		"tall"			"54"
 
 		//"font"		"xHairCircleOutline"
 		"font"			"Crosshair20"
@@ -1509,8 +1509,8 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"KonrWings"
 		"font"			"Crosshairs34"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"zpos"			"2"
 
 		"xpos"			"c-25"
@@ -1572,8 +1572,8 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"Circle"
 		"font"			"Crosshairs34"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-25"
